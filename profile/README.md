@@ -7,7 +7,7 @@ For development, it is reccomended to use VSCode.
 See: https://code.visualstudio.com/docs/remote/wsl.
 Install VSCode on the Windows side and Python on the WSL side (version 3.11 recommended).
 
-## Setup
+## Developer Setup
 
 Code style is checked using `pylint`.  Place [.pylintrc](https://github.com/cam-digital-hospitals/.github/blob/main/.pylintrc)
 in the root folder of the project. This file primarily contains settings to disable
@@ -40,6 +40,9 @@ To launch services:
 ```
 cd docker
 docker compose down
-docker compose build
 docker compose up
 ```
+
+## Container registry
+
+Prebuilt Docker containers, where availble, will be hosted at https://github.com/orgs/cam-digital-hospitals/packages.
