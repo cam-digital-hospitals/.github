@@ -1,0 +1,28 @@
+[BASIC]
+
+good-names=i,
+           j,
+           r,
+           x,
+           y,
+           _,
+           df,
+           fn,
+           id,
+           qc,  # quality control
+           sc   # scenario
+
+[MESSAGES CONTROL]
+
+disable=too-many-arguments,
+        too-many-instance-attributes,
+        attribute-defined-outside-init, # needed due to salabim design patterns
+        too-many-locals,
+        too-many-statements,
+        broad-exception-caught,
+        # missing-module-docstring,
+        # missing-function-docstring
+
+[variables]
+
+allowed-redefined-builtins = id
