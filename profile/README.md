@@ -19,6 +19,23 @@ Install VSCode on the Windows side and Python on the WSL side (version 3.11 reco
 
 For more information on Git submodules, see: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
+### VS Code set-up
+
+The [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension is required for
+Python developement in WSL (Windows Subsystem for Linux).  Once installed, the simplest way to connect to WSL is
+to click the green box in the lower-left corner of a VS Code window.  Note that it is **not** recommended to install VS Code
+within WSL itself.
+
+The included `settings.json` file includes definitions for the
+[Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+extension.  Other useful extensions include:
+
+- [SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer)
+- [Pylint](https://marketplace.visualstudio.com/items?itemName=ms-python.pylint),
+  [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8), and
+  [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
 ### Python set-up 
 
 1. `pip install virtualenvwrapper`
