@@ -7,6 +7,10 @@ For development, it is reccomended to use VS Code.
 See: https://code.visualstudio.com/docs/remote/wsl.
 Install VSCode on the Windows side and Python on the WSL side (version 3.11 recommended).
 
+## WIKI
+
+New developers and non-technical users should start [here](https://github.com/cam-digital-hospitals/.github/wiki).
+
 ## Developer Setup
 
 1. Fork the repo `cam-digital-hospitals/yinchi-dev` to set up your own development environment.
