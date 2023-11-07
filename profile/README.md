@@ -17,6 +17,8 @@ Install VSCode on the Windows side and Python on the WSL side (version 3.11 reco
     - To pull remote updates in the future, use `git pull --recurse-submodules` from the project root directory.
     - To push with submodule changes included, use `git push --recurse-submodules=on-demand` from the project root directory.
 
+Alternatively, use the Source Control interface in VS Code to commit and push.
+
 For more information on Git submodules, see: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 ### VS Code set-up
@@ -35,6 +37,11 @@ extension.  Other useful extensions include:
   [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8), and
   [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+### `alias.sh`
+
+The file `alias.sh` contains commands to make it easier to use Docker. Use `source alias.sh` to load the alias definitions
+in a running terminal.
 
 ### Python set-up 
 
