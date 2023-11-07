@@ -10,14 +10,14 @@ Install VSCode on the Windows side and Python on the WSL side (version 3.11 reco
 ## Developer Setup
 
 1. Fork the repo `cam-digital-hospitals/yinchi-dev` to set up your own development environment.
-1. (Optional) rename `db/hpath.example.db` to `db/hpath.db` to pre-populate the Histopathology Simulation database with some
-   simulation results.  Remove this file if the database schema has changed.
 1. Run `git clone https://github.com/cam-digital-hospitals/<yourname-dev>.git digital-hospitals`, where
    `<yourname-dev>` is the name of your newly created repository.
 1. `git submodule init <repo>` for each repository you want to run as a service and update `docker/docker-compose.yml` accordingly.
 1. `git submodule update`
     - To pull remote updates in the future, use `git pull --recurse-submodules` from the project root directory.
     - To push with submodule changes included, use `git push --recurse-submodules=on-demand` from the project root directory.
+1. (Optional) rename `db/hpath.example.db` to `db/hpath.db` to pre-populate the Histopathology Simulation database with some
+   simulation results.  Remove this file if the database schema has changed.
 
 Alternatively, use the **Source Control** interface in VS Code to commit and push.
 
