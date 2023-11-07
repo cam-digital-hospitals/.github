@@ -62,6 +62,9 @@ Note that Docker Desktop on Windows/Mac defines `host.docker.internal` to enable
 Docker containers and the host; however, this is not available on Linux.  Instead, define "extra-hosts"
 in the Docker Compose file: see https://stackoverflow.com/a/67158212
 
+- Note: `host.docker.internal` is not currently needed in the current Docker Compose setup, but might be needed
+  if running additional services outside Docker on a local machine.
+
 To launch services use the `dbu` alias in `alias.sh`, which combines the Docker Compose `down`, `build` and `up` commands.
 Make sure to run this from the same directory as `docker-compose.yml`.
 
